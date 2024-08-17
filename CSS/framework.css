@@ -1,0 +1,342 @@
+/* Start Variables */
+:root {
+    --main-blue: #0075FF;
+    --main-blue-alt: #0D69D5;
+    --main-orange: #F59E0B;
+    --main-green: #22C55E;
+    --main-red: #F44336;
+    --main-gray: #888888;
+}
+/* End Variables */
+
+/* Start Box */
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.d-grid {
+    display: grid;
+}
+
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+    .hide-mobile {
+        display: none;
+    }
+}
+
+.gap-20 {
+    gap: 20px;
+}
+/* End Box */
+
+/* Start Padding & Margin */
+.p-5 {
+    padding: 5px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-15 {
+    margin: 15px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+/* End Padding & Margin */
+
+/* Start Colors */
+.bg-white {
+    background-color: white;
+}
+
+.bg-blue {
+    background-color: var(--main-blue);
+}
+
+.bg-orange {
+    background-color: var(--main-orange);
+}
+
+.bg-green {
+    background-color: var(--main-green);
+}
+
+.bg-red {
+    background-color: var(--main-red);
+}
+
+.bg-eee {
+    background-color: #EEE;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-black {
+    color: black;
+}
+
+.c-gray {
+    color: var(--main-gray);
+}
+
+.c-orange {
+    color: var(--main-orange);
+}
+
+.c-green {
+    color: var(--main-green);
+}
+
+.c-blue {
+    color: var(--main-blue);
+}
+
+.c-red {
+    color: var(--main-red);
+}
+/* End Colors */
+
+/* Start Position */
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+/* End Position */
+
+/* Start Font */
+.txt-c {
+    text-align: center;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+}
+/* End Font */
+
+/* Start Border */
+.b-none {
+    border: none;
+}
+
+.border-ccc {
+    border: 1px solid #CCC;
+}
+
+.border-eee {
+    border: 1px solid #EEE;
+}
+
+.rad-6 {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.rad-half, .round, .circle-shape {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* End Border */
+
+/* Start Componenets */
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.btn-shape:not(table .label) {
+    cursor: pointer;
+}
+/* End Componenets */
+
+/* Start Width & Height */
+.w-fit {
+    width: fit-content;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-100 {
+    width: 100px;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h-100 {
+    height: 100px;
+}
+/* End Width & Height */
